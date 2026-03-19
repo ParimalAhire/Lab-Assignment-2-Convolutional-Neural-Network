@@ -6,8 +6,8 @@ This project implements **Convolutional Neural Networks (CNN)** for image classi
 2. **Transfer Learning** — using pretrained **ResNet50** (trained on ImageNet)
 
 Each approach is tested on two tasks:
-- **Binary Classification** — Fire Detection (Fire 🔥 vs No Fire)
-- **Multi Classification** — Flowers Recognition (5 flower types 🌸)
+- **Binary Classification** — Fire Detection (Fire vs No Fire)
+- **Multi Classification** — Flowers Recognition (5 flower types)
 
 All four results are compared at the end to demonstrate the advantage of transfer learning over training from scratch.
 
