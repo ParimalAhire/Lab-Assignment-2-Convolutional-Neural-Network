@@ -211,5 +211,3 @@ This assignment implemented CNN-based image classification across four configura
 4. **ResNet50 — Multi (Flowers):** 89.93%
 
 **Key takeaway:** Transfer learning with ResNet50 consistently outperforms CNN from scratch, especially on multi-class problems. The pretrained ImageNet features generalize effectively to completely different domains like fire detection and flower recognition, achieving high accuracy with far less training time.
-
--
