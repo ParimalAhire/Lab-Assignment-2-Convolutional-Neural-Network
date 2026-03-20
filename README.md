@@ -205,15 +205,11 @@ scikit-learn
 
 This assignment implemented CNN-based image classification across four configurations and demonstrated the clear advantage of transfer learning:
 
-1. **CNN Scratch — Binary (Fire):** 84.50% — good result for training from scratch on a small dataset
-2. **CNN Scratch — Multi (Flowers):** 65.05% — lower due to 5 similar-looking classes and limited data
-3. **ResNet50 — Binary (Fire):** 96.50% — +12% over scratch; pretrained features transfer well
-4. **ResNet50 — Multi (Flowers):** 89.93% — +24.88% over scratch; biggest improvement on harder task
+1. **CNN Scratch — Binary (Fire):** 84.50% 
+2. **CNN Scratch — Multi (Flowers):** 65.05% 
+3. **ResNet50 — Binary (Fire):** 96.50%
+4. **ResNet50 — Multi (Flowers):** 89.93%
 
 **Key takeaway:** Transfer learning with ResNet50 consistently outperforms CNN from scratch, especially on multi-class problems. The pretrained ImageNet features generalize effectively to completely different domains like fire detection and flower recognition, achieving high accuracy with far less training time.
 
----
-
-**Name:** Parimal Ahire  
-**PRN:** 202301040067  
-**Course:** Deep Learning Lab
+-
